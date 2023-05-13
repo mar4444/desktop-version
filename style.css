@@ -27,7 +27,7 @@ header {
   font-family: 'Poppins', sans-serif;
 }
 
-header span {
+header h1 {
   width: 76px;
   height: 20px;
   font-family: 'Poppins', sans-serif;
@@ -41,9 +41,9 @@ header span {
   color: #6070ff;
 }
 
-nav .bar1,
-nav .bar2,
-nav .bar3 {
+.mobile-menu .bar1,
+.mobile-menu .bar2,
+.mobile-menu .bar3 {
   width: 20px;
   height: 2px;
   background-color: #6070ff;
@@ -51,7 +51,6 @@ nav .bar3 {
 }
 
 .headline {
-  background: #fff url("images/header-shapes\ mobile.png") no-repeat;
   background: #fff url("images/header-shapes-mobile.png") no-repeat;
   background-size: contain;
   display: flex;
@@ -113,13 +112,13 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
-#container1 {
+.container1 {
   display: grid;
   grid-column: auto auto auto auto;
   margin-top: 50px;
 }
 
-.work {
+.works {
   background-color: #fff;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
@@ -129,16 +128,16 @@ html {
   margin: 50px 20px;
 }
 
-.work:nth-last-child(4) {
+.works:nth-last-child(4) {
   margin-bottom: 0;
 }
 
-.work img {
+.works img {
   width: 100%;
   height: auto;
 }
 
-.work h2 {
+.works h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 2em;
@@ -165,7 +164,7 @@ html {
   margin-right: 10px;
 }
 
-.work span {
+.works span {
   font-style: normal;
   font-weight: 600;
   font-size: 0.9em;
@@ -174,11 +173,11 @@ html {
   padding: 0 10px 0 0;
 }
 
-.work span:first-of-type {
+.works span:first-of-type {
   color: #344563;
 }
 
-.work p {
+.works p {
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -187,27 +186,6 @@ html {
   color: #344563;
   width: 295px;
 }
-
-/* .work ul {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-}
-
-.work ul li {
-  float: left;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  text-align: center;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1em;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  padding: 5px 10px;
-  margin-right: 5px;
-} */
 
 button {
   width: 130px;
@@ -441,13 +419,13 @@ button:hover {
   margin: 14% auto 2%;
 }
 
-.work ul {
+.works ul {
   list-style: none;
   padding: 0;
   margin: 20px 0;
 }
 
-.work ul li {
+.works ul li {
   float: left;
   color: #6070ff;
   background: #ebebff;
@@ -482,22 +460,22 @@ button:hover {
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .col-ss-1 { width: 8.33%; }
-  .col-ss-2 { width: 16.66%; }
-  .col-ss-3 { width: 25%; }
-  .col-ss-4 { width: 33.33%; }
-  .col-ss-5 { width: 41.66%; }
-  .col-ss-6 { width: 50%; }
-  .col-ss-7 { width: 58.33%; }
-  .col-ss-8 { width: 66.66%; }
-  .col-ss-9 { width: 75%; }
-  .col-ss-10 { width: 83.33%; }
-  .col-ss-11 { width: 91.66%; }
-  .col-ss-12 { width: 100%; }
+  .col-1 { width: 8.33%; }
+  .col-2 { width: 16.66%; }
+  .col-3 { width: 25%; }
+  .col-4 { width: 33.33%; }
+  .col-5 { width: 41.66%; }
+  .col-6 { width: 50%; }
+  .col-7 { width: 58.33%; }
+  .col-8 { width: 66.66%; }
+  .col-9 { width: 75%; }
+  .col-10 { width: 83.33%; }
+  .col-11 { width: 91.66%; }
+  .col-12 { width: 100%; }
 }
 
 @media only screen and (min-width: 768px) {
-  nav,
+  .mobile-menu,
   .shape,
   .mob1,
   .container2 {
@@ -536,7 +514,7 @@ button:hover {
     padding: 25px 110px;
   }
 
-  .work img {
+  .works img {
     width: 100%;
     height: 89%;
     margin: 30px auto;
@@ -565,7 +543,7 @@ button:hover {
     margin-bottom: 5%;
   }
 
-  .work,
+  .works,
   .about-myself {
     display: flex;
     flex-direction: row;
@@ -573,7 +551,7 @@ button:hover {
     height: 65%;
   }
 
-  .work .col-ss-5 {
+  .works .col-5 {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -597,7 +575,7 @@ button:hover {
     margin-right: 10px;
   }
 
-  .work span {
+  .works span {
     font-style: normal;
     font-weight: 600;
     font-size: 0.9em;
@@ -606,7 +584,7 @@ button:hover {
     padding: 0 10px 0 0;
   }
 
-  .work span:first-of-type {
+  .works span:first-of-type {
     color: #344563;
   }
 
@@ -632,7 +610,7 @@ button:hover {
     height: unset;
   }
 
-  .about-myself .col-ss-5 {
+  .about-myself .col-5 {
     display: flex;
     flex-direction: column;
     margin-top: 0;
@@ -675,12 +653,10 @@ button:hover {
     margin: 0;
   }
 
-  .col-ss-5 .social-media li {
+  .col-5 .social-media li {
     margin-right: 5%;
     font-size: 1.1em;
     float: left;
-
-    /* margin: 8px; */
   }
 
   .about-myself button {
@@ -720,7 +696,7 @@ button:hover {
     color: #fff;
   }
 
-  .col-ss-7 .stack ul li {
+  .col-7 .stack ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -732,7 +708,7 @@ button:hover {
     height: 95px;
   }
 
-  .about-myself .col-ss-7 > .categories ul li {
+  .about-myself .col-7 > .categories ul li {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -752,11 +728,11 @@ button:hover {
     width: 80%;
   }
 
-  .col-ss-7 .categories p {
+  .col-7 .categories p {
     padding: 10px 0;
   }
 
-  .col-ss-7 .stack ul {
+  .col-7 .stack ul {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -765,7 +741,7 @@ button:hover {
     margin: 15px 0;
   }
 
-  .col-ss-7 .stack ul li p {
+  .col-7 .stack ul li p {
     font-size: 0.7em;
   }
 
