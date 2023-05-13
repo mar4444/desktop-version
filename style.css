@@ -92,6 +92,14 @@ header h1 {
   transition: color 2s, text-shadow 2s, font-size 2s;
 }
 
+.about-myself .connect {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
 .headline .connect:hover {
   color: orangered;
   text-shadow: 2px 3px 2px #000;
@@ -239,14 +247,6 @@ button {
   line-height: 24px;
   color: #344563;
   margin: 0;
-}
-
-.about-myself .connect {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1em;
-  line-height: 24px;
-  color: #7f8cff;
 }
 
 .about-myself ul {
@@ -548,11 +548,21 @@ button:hover {
     width: 90%;
   }
 
+  .about-myself .connect {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9em;
+    margin: 10px 0 0 0;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
   .headline .connect:hover {
-  color: orangered;
-  text-shadow: 2px 3px 2px #abd;
-  font-size: 2em;
-}
+    color: orangered;
+    text-shadow: 2px 3px 2px #abd;
+    font-size: 2em;
+  }
 
   .headline i {
     color: #505f79;
@@ -651,16 +661,6 @@ button:hover {
     font-size: 1em;
     line-height: 24px;
     color: #344563;
-  }
-
-  .about-myself .connect {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.9em;
-    margin: 10px 0 0 0;
-    line-height: 24px;
-    color: #7f8cff;
   }
 
   .social-media {
