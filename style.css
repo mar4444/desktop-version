@@ -89,6 +89,12 @@ header h1 {
   font-size: 1em;
   line-height: 24px;
   color: #7f8cff;
+  transition: color 2s, text-shadow 2s;
+}
+
+.headline .connect:hover {
+  color: orangered;
+  text-shadow: 2px 3px 2px #abd;
 }
 
 .headline ul {
@@ -541,6 +547,11 @@ button:hover {
   .headline .content {
     width: 90%;
   }
+
+  .headline .connect:hover {
+  color: orangered;
+  text-shadow: 2px 3px 2px #abd;
+}
 
   .headline i {
     color: #505f79;
