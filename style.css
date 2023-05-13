@@ -454,8 +454,6 @@ button:hover {
 
 [class*="col-"] {
   float: left;
-
-  /* padding: 15px; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -508,6 +506,12 @@ button:hover {
     font-size: 1.1em;
     line-height: 20px;
     text-align: center;
+    transition: color 3s, font-weight 2s;
+  }
+
+  .desktop-menu ul li a:hover {
+    color: #396df2;
+    font-weight: 1000;
   }
 
   header {
